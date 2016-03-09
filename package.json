@@ -1,0 +1,12 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "node-sass -o css scss",
+    "watch": "node-sass -o css scss -w"
+  },
+  "author": "",
+  "license": "MIT"
+}
