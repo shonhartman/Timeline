@@ -27,11 +27,15 @@
     margin-left: -10px;
  }
 
+.timeline li:last-child .label {
+  background-color: #5395C5;
+}
+
 .time {
   /*background-color: yellow;*/
   display: block;
-  width: 25%;
-  padding-right: 100px;
+  width: 15%;
+  /*padding-right: 100px;*/
   position: absolute;
   font-family: arial;
 
@@ -42,14 +46,13 @@
     font-size: 0.9em;
     display: block;
     text-align: right;
-    /*background-color: green;*/
   }
 
   .time span:last-child {
     font-size: 2.9em;
     display: block;
     text-align: right;
-    /*background-color: yellow;*/
+    color: #82BFE9;
   }
 
 .icon {
